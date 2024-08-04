@@ -29,6 +29,7 @@ namespace MyApp
             };
            string sql = @"INSERT INTO TutorialAppSchema.Computer (
            Motherboard,
+           CPUcores,
            HasWifi,
            HasLTE,
            ReleaseDate,
